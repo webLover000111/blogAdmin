@@ -1,0 +1,23 @@
+.clearfix{
+  clear: both;
+}
+.left{
+  float: left;
+  width: 400px;
+  height: auto;
+}
+.right{
+  float: right;
+  width: calc(100vw - 400px);
+  height: auto;
+}
+.container{
+  box-sizing: border-box;
+  padding: 20px 20px;
+  height: calc(100vh - 150px);
+  width: 100%;
+}
+.footer{
+  height: 100px;
+  width: 100%;
+}
