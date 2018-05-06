@@ -1,0 +1,5 @@
+<div class="funcTab">
+    <ul>
+    <li *ngFor="let item of navLinks let i = index" [ngClass]="{active: isActive(i)}"><a [routerLink]="item.path">{{item.label}}</a></li>
+    </ul>
+</div>

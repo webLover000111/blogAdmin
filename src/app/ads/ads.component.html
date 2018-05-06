@@ -1,0 +1,18 @@
+<div class="ads">
+  <section *ngFor="let ad of ads">
+  <span>{{ad.label}}</span>
+  <br>
+  <label for="{{ad.label}}">上传文件:</label>
+  <input type="file" name="{{ad.label}}">
+  <br>
+  <label for="{{ad.from}}">起始日期:</label>
+  <input type="date" class="from" name="{{ad.from}}">
+  <br>
+  <label for="{{ads.to}}">结束日期:</label>
+  <input type="date" class="to" name="{{ad.to}}">
+  <br>
+  <button type="button">提交</button>
+  <hr>
+  </section>
+
+</div>

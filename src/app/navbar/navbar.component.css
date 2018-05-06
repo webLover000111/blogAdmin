@@ -1,0 +1,25 @@
+.navbar{
+  height: 50px;
+  width: 100%;
+
+  background: #b1acff;
+}
+.wrap{
+  display: inline-block;
+  height: 50px;
+  width: auto;
+  float: right;
+
+  font-size: 20px;
+  line-height: 50px;
+  font-weight: 600;
+  color: #222;
+}
+.logout{
+  margin: 0 20px 0 0;
+  cursor: pointer;
+}
+.logout:hover{
+  color: #f3f3f3;
+  text-decoration: underline;
+}

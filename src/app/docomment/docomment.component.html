@@ -1,0 +1,20 @@
+<div class="doComment">
+  <span class="sortByTime">按时间</span><span class="sortByName">按发布者</span>
+  <div class="clearfix"></div>
+<table id="commentTable">
+    <tr class="theHead">
+        <th class="from">From</th>
+        <th class="to">To</th>
+        <th class="content">Content</th>
+        <th class="time">Time</th>
+        <th class="operation">Operation</th>
+    </tr>
+    <tr *ngFor="let comment of comments">
+      <td class="from">{{comment.from}}</td>
+      <td class="to">{{comment.to}}</td>
+      <td class="content">{{comment.content}}</td>
+      <td class="time">{{comment.time}}</td>
+      <td class="operation"><span class="reply">reply</span><span class="delete">delete</span></td>
+    </tr>
+</table>
+</div>

@@ -1,0 +1,20 @@
+<div class="users">
+  <span class="sortByTime">按时间</span><span class="sortByName">按昵称</span>
+  <div class="clearfix"></div>
+<table id="usersTable">
+    <tr class="theHead">
+        <th class="name">Name</th>
+        <th class="password">Password</th>
+        <th class="email">Email</th>
+        <th class="logupTime">LogupTime</th>
+        <th class="operation">Operation</th>
+    </tr>
+    <tr *ngFor="let user of users">
+      <td class="name">{{user.name}}</td>
+      <td class="password">{{user.password}}</td>
+      <td class="email">{{user.email}}</td>
+      <td class="logupTime">{{user.logupTime}}</td>
+      <td class="operation"><span class="upgrade">upgrade</span><span class="delete">delete</span><span class="black">black</span></td>
+    </tr>
+</table>
+</div>

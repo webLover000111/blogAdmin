@@ -1,0 +1,61 @@
+.writePassage section{
+  margin: 20px 0 0 0;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.writePassage input{
+  display: inline-block;
+  height: 30px;
+  width: 360px;
+  padding: 2px 6px;
+}
+.writePassage select{
+  display: block;
+  height: 30px;
+  width: 150px;
+}
+.writePassage form{
+  margin: 0 0 20px 0;
+}
+.modify{
+  margin: 0 0 20px 0;
+}
+.modifyText{
+  color: #222;
+  font-size: 16px;
+  line-height: 20px;
+  cursor: pointer;
+}
+.modifyText img{
+  height: 16px;
+  width: 16px;
+  vertical-align: middle;
+}
+.modifyText span{
+  vertical-align: middle;
+  padding: 10px;
+}
+.modifyText span:hover{
+  text-decoration: underline;
+}
+.tagsChoice{
+  display: block;
+  float: left;
+  margin: 20px 20px 0 0;
+  height: 24px;
+  width: auto;
+  padding: 2px 4px;
+  -webkit-border-radius: 6px 6px 6px 6px;
+  -moz-border-radius: 6px 6px 6px 6px;
+  border-radius: 6px 6px 6px 6px;
+  background: #71ff68;
+  min-width: 48px;
+  font-size: 14px;
+  line-height: 24px;
+  color: #333;
+  text-align: center;
+}
+.clearfix{
+  clear:both;
+}

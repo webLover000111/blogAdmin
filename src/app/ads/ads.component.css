@@ -1,0 +1,20 @@
+.ads section{
+  margin: 20px 0 0 0;
+}
+.ads input{
+  display: inline-block;
+  height: 30px;
+  width: 200px;
+  margin: 20px 0 0 0;
+}
+.ads span{
+  display: inline-block;
+
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: bold;
+}
+ads button{
+  display: inline-block;
+  margin: 20px 0 0 0;
+}

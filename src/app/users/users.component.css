@@ -1,0 +1,73 @@
+.sortByTime, .sortByName{
+  display: block;
+  height: 30px;
+  width: 70px;
+  margin: 0 20px 0 0;
+  padding: 0 6px;
+  float: left;
+
+  font-size: 16px;
+  line-height: 30px;
+  color:#333;
+  cursor: pointer;
+}
+.sortByTime:hover, .sortByName:hover{
+  text-decoration: underline;
+  color: #9f99ff;
+}
+#usersTable{
+  border: #8ccbff  solid 1px;
+  border-collapse: collapse;
+  min-width: 800px;
+  min-height: 30px;
+}
+#usersTable td{
+  display: inline-block;
+  border: #8ccbff  solid 1px;
+  border-collapse: collapse;
+  height: 30px;
+  padding: 0 6px;
+  font-size: 14px;
+  line-height: 30px;
+  color:#222;
+}
+#usersTable th{
+  display: inline-block;
+  padding: 0 6px;
+  border: #8ccbff  solid 1px;
+  border-collapse: collapse;
+  height: 30px;
+  font-size: 14px;
+  line-height: 30px;
+  color:#222;
+}
+#usersTable tr {
+  border: #8ccbff solid 1px;
+  border-collapse: collapse;
+  height: 30px;
+  width: auto;
+}
+#usersTable tr:hover{
+  background: #b7f0ff;
+}
+#usersTable td,#usersTable th{
+  width: 160px;
+  text-align: center;
+}
+.clearfix{
+  clear: both;
+}
+.operation span{
+  display: block;
+  width: 50px;
+  height: 30px;
+  float: left;
+  text-align: center;
+  line-height: 30px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.operation span:hover{
+  color: #ff0b43;
+  text-decoration: underline;
+}
